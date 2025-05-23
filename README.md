@@ -15,7 +15,7 @@ Classify content based on keywords and viewer perceptions.
 **Language:** SQL
 **Dataset:** Netflix content database (includes show_id, type, title, director, casts, country, date_added, release_year, rating, duration, listed_in, description)
 
-##What I Learned from the Netflix SQL Analysis Project
+
 
 ![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/555f69723849fef12619b035c225bbd6b02ed5aa/image/Screenshot%202025-05-24%20025149.png)
 

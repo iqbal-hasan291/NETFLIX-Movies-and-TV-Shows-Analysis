@@ -16,14 +16,7 @@ Classify content based on keywords and viewer perceptions.
 **Dataset:** Netflix content database (includes show_id, type, title, director, casts, country, date_added, release_year, rating, duration, listed_in, description)
 
 ## Key Business Questions Solved
-** Count of Movies vs TV Shows**
-SELECT
-	TYPE,
-	COUNT(SHOW_ID)
-FROM
-	NETFLIX
-GROUP BY TYPE;
-
+1️⃣ Count of Movies vs TV Shows
 Reveals content distribution across types using GROUP BY.
 
 2️⃣ Most Common Rating per Type

@@ -54,19 +54,19 @@ Converts date_added string to date for temporal filtering.
 
 **7️⃣ Top 3 Directors by Movie Count**
 
-![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022214.png)
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/6345ba0cfa16cd5a6fe6d2bf4705df8afb9955fe/image/Screenshot%202025-05-24%20022225.png)
 
 Uses UNNEST and TRIM to extract director names and aggregate.
 
 **8️⃣ TV Shows With More Than 5 Seasons**
 
-![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022225.png)
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/6345ba0cfa16cd5a6fe6d2bf4705df8afb9955fe/image/Screenshot%202025-05-24%20022240.png)
 
 Filters TV shows based on season count using string parsing.
 
 **9️⃣ Top 5 Genres on Netflix**
 
-![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022240.png)
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/6345ba0cfa16cd5a6fe6d2bf4705df8afb9955fe/image/Screenshot%202025-05-24%20022249.png)
 
 Unpacks genres using UNNEST, then counts appearances.
 

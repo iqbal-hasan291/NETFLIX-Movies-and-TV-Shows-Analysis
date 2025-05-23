@@ -1,6 +1,7 @@
 # NETFLIX-Movies-and-TV-Shows-Analysis
+![image alt](Cover_2.jpg)
 
-📊 Netflix Data Analysis Project Using SQL
+**Netflix Data Analysis Project Using SQL**
 🧠 Overview
 This project aims to analyze Netflix’s content using structured SQL queries to derive meaningful business insights. The analysis covers content type distribution, country-wise trends, director and actor performance, content ratings, and viewer-relevant classifications.
 

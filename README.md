@@ -22,46 +22,88 @@ Classify content based on keywords and viewer perceptions.
 
 Reveals content distribution across types using GROUP BY.
 
-2️⃣ Most Common Rating per Type
+**2️⃣ Most Common Rating per Type**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022053.png)
+
 Uses RANK() to extract the top rating per content type.
 
-3️⃣ Movies Released in 2020
+**3️⃣ Movies Released in 2020**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022110.png)
+
 Simple filter to show content by year and type.
 
-4️⃣ Top 5 Countries by Content Count
+**4️⃣ Top 5 Countries by Content Count**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022125.png)
+
 Breaks down multi-country fields using STRING_TO_ARRAY and ranks by content volume.
 
-5️⃣ Longest Movie on Netflix
+**5️⃣ Longest Movie on Netflix**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022147.png)
+
 Parses duration to find the longest movie using SPLIT_PART.
 
-6️⃣ Content Added in the Last 5 Years
+**6️⃣ Content Added in the Last 5 Years**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022200.png)
+
 Converts date_added string to date for temporal filtering.
 
-7️⃣ Top 3 Directors by Movie Count
+**7️⃣ Top 3 Directors by Movie Count**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022214.png)
+
 Uses UNNEST and TRIM to extract director names and aggregate.
 
-8️⃣ TV Shows With More Than 5 Seasons
+**8️⃣ TV Shows With More Than 5 Seasons**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022225.png)
+
 Filters TV shows based on season count using string parsing.
 
-9️⃣ Top 5 Genres on Netflix
+**9️⃣ Top 5 Genres on Netflix**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022240.png)
+
 Unpacks genres using UNNEST, then counts appearances.
 
-🔟 Average Annual Indian Releases
+**🔟 Average Annual Indian Releases**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022300.png)
+
 Calculates the percentage of Indian content released per year.
 
-1️⃣1️⃣ Bangladeshi Movies
+**1️⃣1️⃣ Bangladeshi Movies**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022312.png)
+
 Searches titles using ILIKE '%Bangladesh%'.
 
-1️⃣2️⃣ Content Without Directors
+**1️⃣2️⃣ Content Without Directors**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022319.png)
+
 Counts entries with NULL director fields.
 
-1️⃣3️⃣ Salman Khan Movies (Last 10 Years)
+**1️⃣3️⃣ Salman Khan Movies (Last 10 Years)**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022327.png)
+
 Uses UNNEST, TRIM, and filtering by actor and date.
 
-1️⃣4️⃣ Top 10 Indian Actors by Movie Count
+**1️⃣4️⃣ Top 10 Indian Actors by Movie Count**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022335.png)
+
 Ranks most frequent actors in Indian content using UNNEST.
 
-1️⃣5️⃣ Classify Content as "Good" or "Bad"
+**1️⃣5️⃣ Classify Content as "Good" or "Bad"**
+
+![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/4cb407ebb3d98c7c4e61cea05aeb7b17bd101a2f/image/Screenshot%202025-05-24%20022347.png)
+
 Uses CASE with ILIKE on the description to label and count content based on violent keywords.
 
 ## Insights & Learnings

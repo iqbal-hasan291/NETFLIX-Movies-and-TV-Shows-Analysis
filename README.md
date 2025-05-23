@@ -16,7 +16,8 @@ Classify content based on keywords and viewer perceptions.
 **Dataset:** Netflix content database (includes show_id, type, title, director, casts, country, date_added, release_year, rating, duration, listed_in, description)
 
 ## Key Business Questions Solved
-1️⃣ Count of Movies vs TV Shows
+**1️⃣ Count of Movies vs TV Shows**
+
 ![image alt](https://github.com/iqbal-hasan291/NETFLIX-Movies-and-TV-Shows-Analysis/blob/ee2857a4700aeb4d200b805598aa04bf14f88340/image/Screenshot%202025-05-24%20022009.png)
 
 Reveals content distribution across types using GROUP BY.
